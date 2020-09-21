@@ -1,0 +1,284 @@
+.navbar-nav  {
+    margin-left:60%;
+}
+
+.nav-item a {
+    color:black;
+}
+
+h1 {
+    text-align:center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.5em;
+    font-weight:bold;
+    margin: 4% 0px 5% 0px; 
+}
+
+.container {
+
+    margin: 0px auto;
+} 
+
+.jumbotron {
+    background-color: #222222;
+}
+
+.rwxHero {
+    width:100%;
+}
+
+.mappingProcess, .buildingdb, .dlHead {
+    text-align:center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2em;
+    font-weight:bold;
+    margin:4% 0px;
+}
+
+.logodiv {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%
+}
+/* Mapping the Process flexbox and grid*/
+.flexbox1 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-color:#f1f1f1;
+    width:100%;
+    height:40%;
+    padding:25px 0px 20px 0px;
+}
+
+.flexbox1 > div {
+    width: 100px;
+    margin: 10px;
+    text-align: left;
+  }
+
+.card {
+    height:100%;
+    background-color:#dbdada;
+    border-radius:10px;
+    margin:0px 30px;
+}
+
+.card-body {
+    font-size:1.1vw;
+}
+
+/* END Mapping the Process flexbox and grid*/
+
+.building {
+    position:relative;
+    width:60%;
+    left:20%;
+    font-size:1.3vw;
+    margin-bottom:4vw;
+}
+
+.logocontainer {
+    margin:0px auto; 
+}
+
+.logo {
+    width: 700px;
+    margin-bottom:4vh;
+}
+
+/*user thoughts flex and grid*/
+
+.userThoughts {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f1f1f1;
+}
+
+.userIMG { grid-area: userIMG; }
+.utDivDIV { grid-area: utDivDIV; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:'userIMG utDivDIV ';
+    grid-gap: 30px;
+    padding: 10px;
+    background-color:#f1f1f1;
+}
+
+.grid-container > div {
+    background-color:#f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.userIMG {
+    width:25%;
+    padding:30px;
+}
+
+.utDivDIV {
+    width:25%;
+    font-size:1.1vw;
+}
+
+
+
+.utBody {
+    font-size:1.5vw;
+}
+/* end User Thoughts */
+
+/*problem statement flex and grid*/
+
+.psFlexbox {
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color:#ffffff;
+    margin-top:5%;
+}
+    
+.userIMG { grid-area: psDIV; }
+.utDivDIV { grid-area: mainfeaturesDiv; }
+   
+.grid-container {
+    display: grid;
+    grid-template-areas:'psDIV mainfeaturesDiv ';
+    grid-gap: 100px;
+    padding: 10px;
+ }
+    
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.0);
+    text-align: center;
+    padding: 20px 0;
+}
+    
+    
+    
+.psDIV {
+    width:25%;
+}
+    
+.mainfeaturesDiv {
+    width:25%;
+    font-size:1.1vw;
+}
+        
+.utHead, .psHead, .mfHead {
+        font-size:2.5vw;
+        font-weight:bold;
+}
+
+.utBody, .mfBody, .psBody {
+        font-size:1.5vw;
+}
+ /* end Problem Statement flex and grid */
+
+/*deliverables flex and grid*/
+
+.dlfexbox1 {
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color:#f1f1f1;
+    margin-top:5%;
+}
+    
+.dl1 { grid-area: dl1; }
+.dl2 { grid-area: dl2; }
+.dl2 { grid-area: dl3; }
+.dl2 { grid-area: dl4; }
+.dl2 { grid-area: dl5; }
+.dl2 { grid-area: dl6; }
+   
+.dlfexbox1 {
+    display: grid;
+    grid-template-areas:'dl1 dl2 dl3'
+    'dl4 dl5 dl6 ';
+    grid-gap: 100px;
+    padding: 10px;
+ }
+    
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.0);
+    text-align: center;
+    padding: 20px 0;
+}
+    
+.psDIV {
+    width:25%;
+}
+    
+.mainfeaturesDiv {
+    width:25%;
+    font-size:1.1vw;
+}
+        
+.utHead, .psHead, .mfHead {
+        font-size:2.5vw;
+        font-weight:bold;
+}
+
+.utBody, .mfBody, .psBody {
+        font-size:1.5vw;
+}
+
+
+
+.dl1, .dl2, .dl3, .dl4, .dl5, .dl6 {
+    width:100%;
+    margin: 0px 10px 0 10px;
+
+}
+
+ /* end deliverables flex and grid */
+
+/*finished design flex and grid*/
+
+.fdfexbox1 {
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color:#123f5d;
+    margin-top:5%;
+    padding: 60px 0px 120px 0px;
+}
+    
+.dl1 { grid-area: fd1; }
+.dl2 { grid-area: fd2; }
+.dl2 { grid-area: fd3; }
+   
+.dlfexbox1 {
+    display: grid;
+    grid-template-areas:'fd1 fd2 fd3';
+    grid-gap: 100px;
+    padding: 10px;
+ }
+    
+.dlfexbox1 > div {
+    background-color: rgba(255, 255, 255, 0.0);
+    text-align: center;
+    padding: 20px 0;
+}
+    
+.fd1, .fd2, .fd3 {
+    width:30%;
+    margin: 0px 20px 0px 20px;
+}
+    
+.fdHeadDIV {
+    padding-top:80px;
+    margin-bottom:-30px;
+    text-align:center;
+}
+
+ /* end finidhed design flex and grid */
+
+
+
